@@ -3,12 +3,12 @@
   max-height: 100%;
 }
 
-.card-career{
-    background: #357abf;
-    color: black;
+.card-career {
+  background: #357abf;
+  color: black;
 }
 
-.div-learn-more{
+.div-learn-more {
   background: #DAE2B6;
 }
 
@@ -61,7 +61,8 @@ body {
   color: #000000;
 }
 
-.signup-form, .login-form {
+.signup-form,
+.login-form {
   margin: 0;
 }
 
@@ -69,14 +70,16 @@ body {
   margin-right: 10px;
 }
 
-.btn-action, .btn-action {
+.btn-action,
+.btn-action {
   color: #CCD6A6;
   background-color: transparent;
   background-image: none;
   border-color: #CCD6A6;
 }
 
-.btn-action:hover, .btn-action:hover {
+.btn-action:hover,
+.btn-action:hover {
   color: #E7C477;
   background-color: #DAE2B6;
   background-image: none;
@@ -84,7 +87,8 @@ body {
   color: black;
 }
 
-.btn-action:active, .btn-action:active {
+.btn-action:active,
+.btn-action:active {
   color: #E7C477;
   background-color: #F3E1BB;
   background-image: none;
@@ -122,18 +126,42 @@ body {
 }
 
 /*event screen styling*/
-.carousel-inner>.carousel-item>img {
-  width: 100%;
-  height: 100%;
+@media screen and (min-width: 400px) {
+  .carousel-inner>.carousel-item>img {
+    width: 100%;
+    height: 100%;
+  }
 }
 
-.carousel {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 400px;
-  max-height: 500px;
-  flex-grow: 0;
-  flex-shrink: 0;
+@media screen and (max-width: 400px) {
+  .carousel-inner>.carousel-item>img {
+    width: 89%;
+    height: 180%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .carousel {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    max-height: 500px;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .carousel {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 10px;
+    max-height: 500px;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
 }
 
 .jumbotron-welcome {
@@ -158,10 +186,26 @@ body {
   color: #000000;
 }
 
-.caro-container {
-  padding-bottom: 80px;
-  flex-grow: 0;
-  flex-shrink: 0;
+@media screen and (max-width: 400px) {
+  .caro-container {
+    padding-bottom: 400px;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .caro-container {
+    padding-bottom: 80px;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .carousel-indicators {
+    bottom: -220px;
+  }
 }
 
 .welcome {
@@ -234,11 +278,13 @@ body {
   color: grey;
 }
 
-.nav-link, .nav-tabs {
+.nav-link,
+.nav-tabs {
   border-color: #F4EAD5;
 }
 
-#goals-text, #meetings-text {
+#goals-text,
+#meetings-text {
   margin-bottom: 10px;
 }
 
@@ -314,7 +360,7 @@ body {
     margin-top: 20px;
   }
 
-  .col-lg-4{
+  .col-lg-4 {
     margin-bottom: 50px;
   }
 }
@@ -325,11 +371,11 @@ body {
   padding-bottom: 50px;
 }
 
-#underline{
+#underline {
   text-decoration: underline;
 }
 
-#spacing{
+#spacing {
   padding: 20px;
 }
 
@@ -368,9 +414,10 @@ body {
   padding: 20px;
 }
 
-#learn{
+#learn {
   font-size: 20px;
 }
+
 /*card layout for stuents*/
 .card-container {
   margin-top: 50px;
@@ -495,12 +542,12 @@ body {
   text-align: center;
 }
 
-#manageMember{
+#manageMember {
   font-size: 20px;
   margin: auto;
 }
 
-.div-manage-club-members{
+.div-manage-club-members {
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -688,36 +735,43 @@ input {
   height: 0;
   opacity: 0;
 }
+
 .pt-3-half {
-padding-top: 1.4rem;
+  padding-top: 1.4rem;
 }
 
-#table{
-  background-color:  #032032;
+#table {
+  background-color: #032032;
   color: white;
 }
-#tableCard{
+
+#tableCard {
   background-color: #357abf;
   margin-top: 10%;
 }
 
 /* Manage officers table */
-.table{
+.table {
   margin-top: 10px;
   width: 100%;
   height: 350px;
 }
 
-.add, .edit, .save, .delete{
+.add,
+.edit,
+.save,
+.delete {
   background: none;
 }
 
-.edit, .save, .delete{
+.edit,
+.save,
+.delete {
   padding: 5px 10px;
   cursor: pointer;
 }
 
-.add{
+.add {
   float: right;
   background: transparent;
   color: #ffffff;
@@ -727,70 +781,74 @@ padding-top: 1.4rem;
   cursor: pointer;
 }
 
-.add:hover{
-    color: yellow;
-    color: #E7C477;
-    background-color: #E7C477;
-    background-image: none;
-    border-color: #E3BB60;
-    color: #031826;
-  }
+.add:hover {
+  color: yellow;
+  color: #E7C477;
+  background-color: #E7C477;
+  background-image: none;
+  border-color: #E3BB60;
+  color: #031826;
+}
 
-.save{
+.save {
   display: none;
   color: #d79e1d;
   border: 1px solid;
   border-color: #d79e1d;
 }
-.save:hover{
+
+.save:hover {
   background-color: #E7C477;
   border-color: #E3BB60;
   color: #031826;
 }
 
-.edit{
+.edit {
   color: #d79e1d;
   border: 1px solid;
   border-color: #d79e1d;
 }
 
-.edit:hover{
+.edit:hover {
   background-color: #E7C477;
   border-color: #E3BB60;
   color: #031826;
 }
 
-.delete{
+.delete {
   color: #d79e1d;
   border: 1px solid;
   border-color: #d79e1d;
 }
-.delete:hover{
+
+.delete:hover {
   background-color: #E7C477;
   border-color: #E3BB60;
   color: #031826;
 }
 
-#addOfficer{
+#addOfficer {
   float: right;
   margin-top: .5%;
   margin-bottom: .5%;
   margin-right: .5%;
 }
-h3{
+
+h3 {
   color: white;
 }
-#careerImg{
-  width:90%;
+
+#careerImg {
+  width: 90%;
   height: auto;
 }
-#careerPage{
+
+#careerPage {
   margin: auto;
   margin-left: 10%;
   margin-right: 10%;
 }
+
 #TCI {
   color: #000000;
 }
-
-
