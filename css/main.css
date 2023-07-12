@@ -135,7 +135,7 @@ body {
 
 @media screen and (max-width: 400px) {
   .carousel-inner>.carousel-item>img {
-    width: 90%;
+    width:90%;
     height: 180%;
     margin-left: auto;
     margin-right: auto;
@@ -199,8 +199,6 @@ body {
     flex-grow: 0;
     flex-shrink: 0;
     color: #000000;
-    max-width: 90%;
-    justify-content: center;
   }
 }
 
