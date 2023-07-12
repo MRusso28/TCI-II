@@ -135,7 +135,7 @@ body {
 
 @media screen and (max-width: 400px) {
   .carousel-inner>.carousel-item>img {
-    width: 89%;
+    width: 90%;
     height: 180%;
     margin-left: auto;
     margin-right: auto;
@@ -174,16 +174,34 @@ body {
   background-position: bottom;
 }
 
-.carousel-caption {
-  position: relative;
-  right: auto;
-  left: auto;
-  bottom: auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  flex-grow: 0;
-  flex-shrink: 0;
-  color: #000000;
+@media screen and (min-width: 400px) {
+  .carousel-caption {
+    position: relative;
+    right: auto;
+    left: auto;
+    bottom: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    color: #000000;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .carousel-caption {
+    position: relative;
+    right: auto;
+    left: auto;
+    bottom: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    color: #000000;
+    max-width: 90%;
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 400px) {
