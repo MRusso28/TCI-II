@@ -5,11 +5,11 @@
 
 .card-career{
     background: #357abf;
-    color: white;
+    color: black;
 }
 
 .div-learn-more{
-  background: #073451;
+  background: #DAE2B6;
 }
 
 .card-text {
@@ -18,7 +18,7 @@
 }
 
 body {
-  background-color: #032032;
+  background-color: #FFFBE9;
   margin-top: 100px;
   margin-bottom: 100px;
   padding-right: 6%;
@@ -26,7 +26,7 @@ body {
 }
 
 .navbar {
-  background-color: #031826;
+  background-color: #F4EAD5;
   height: 75px;
   position: fixed !important;
   right: 0;
@@ -40,12 +40,12 @@ body {
 }
 
 .info-box {
-  background: #073451;
-
+  background: #DAE2B6;
+  color: #000000;
 }
 
 .highlight-box {
-  background: #357abf;
+  background: #DAE2B6;
   /*lighter blue*/
 }
 
@@ -53,8 +53,12 @@ body {
   color: white;
 }
 
+.gen-text2 {
+  color: black;
+}
+
 .font-highlight {
-  color: #d79e1d;
+  color: #000000;
 }
 
 .signup-form, .login-form {
@@ -66,18 +70,18 @@ body {
 }
 
 .btn-action, .btn-action {
-  color: #d79e1d;
+  color: #CCD6A6;
   background-color: transparent;
   background-image: none;
-  border-color: #d79e1d;
+  border-color: #CCD6A6;
 }
 
 .btn-action:hover, .btn-action:hover {
   color: #E7C477;
-  background-color: #E7C477;
+  background-color: #DAE2B6;
   background-image: none;
-  border-color: #E3BB60;
-  color: #031826;
+  border-color: #DAE2B6;
+  color: black;
 }
 
 .btn-action:active, .btn-action:active {
@@ -93,8 +97,9 @@ body {
   bottom: 0;
   right: 0;
   left: 0;
-  background-color: #031826;
-  color: white;
+  background-color: #F4EAD5;
+  color: black;
+  font-weight: bold;
   padding-top: 20px;
   padding-bottom: 20px;
   display: flex;
@@ -125,20 +130,20 @@ body {
 .carousel {
   margin-left: auto;
   margin-right: auto;
-  max-width: 700px;
+  max-width: 400px;
   max-height: 500px;
   flex-grow: 0;
   flex-shrink: 0;
 }
 
 .jumbotron-welcome {
-  background-image: url("../images/jumbo.png");
+  background-image: url("../images/grassy.jpg");
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: darken;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  background-position: top;
+  background-position: bottom;
 }
 
 .carousel-caption {
@@ -150,6 +155,7 @@ body {
   padding-bottom: 20px;
   flex-grow: 0;
   flex-shrink: 0;
+  color: #000000;
 }
 
 .caro-container {
@@ -183,7 +189,7 @@ body {
 
 .seperate-line {
   height: 2px;
-  background: #357abf;
+  background: #F4EAD5;
   margin-top: 5px;
   margin-bottom: 5px;
 }
@@ -194,42 +200,42 @@ body {
 
 .btn-become-member {
   font-size: 25px;
-  background-color: #073451;
+  background-color: #F4EAD5;
 }
 
 .nav-link {
-  color: white;
+  color: black;
 }
 
 .tab-pane {
-  color: white;
+  color: black;
   padding-right: 10px;
   padding-left: 10px;
 }
 
 .gen-info {
   margin-top: 40px;
-  background: #073451;
+  background: #DAE2B6;
 
 }
 
 .nav-item.nav-link.active {
-  background: #357abf;
-  color: white;
-  border-color: #d79e1d;
+  background: #F4EAD5;
+  color: black;
+  border-color: #DAE2B6;
 }
 
 .nav-item.nav-link:hover {
-  color: #357abf;
-  border-color: #d79e1d;
+  color: grey;
+  border-color: #F4EAD5;
 }
 
 .nav-item.nav-link.active:hover {
-  color: #073451;
+  color: grey;
 }
 
 .nav-link, .nav-tabs {
-  border-color: #d79e1d;
+  border-color: #F4EAD5;
 }
 
 #goals-text, #meetings-text {
@@ -782,6 +788,9 @@ h3{
   margin: auto;
   margin-left: 10%;
   margin-right: 10%;
+}
+#TCI {
+  color: #000000;
 }
 
 
